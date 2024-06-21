@@ -8,7 +8,7 @@
 </head>
 <body>
     <!--sign_in section-->
-    <section id="container-sign_In">
+    <section id="container-sign_In" hidden>
         <h1>Sign_In</h1>
         <form id="form" action="">
             <div>
@@ -20,14 +20,14 @@
                 <input type="password" name="password" id="" required="required">
             </div>
         </form>
-        <button class="link" id="link">Connect</button>
+        <button onclick="sign_In()" class="link" id="link">Connect</button>
     </section>
 
     <!--Dashboard portfolio-->
-    <section id="container-info-portfolio" hidden>
+    <section id="container-info-portfolio">
         <header id="header-portfolio">
             <div id="myprofile" class="container-Info-Dev">
-                <img src="./image/eustache.jpeg" id="image-eust" alt="">
+                <!-- <img src="./image/eustache.jpeg" id="image-eust" alt=""> -->
                 <h2>Eustache_Kam's</h2>
             </div>
             <div class="container-Info-Dev">
@@ -40,6 +40,13 @@
                 <a id="watsapp" href="https://web.whatsapp.com/"><img src="https://static-00.iconduck.com/assets.00/whatsapp-icon-2038x2048-5zk5gj1j.png" alt="whatsapp-icon-2038x2048-5zk5gj1j"></a>
             </div>
         </header>
+        <div id="profil">
+            <div id="profil-container">
+               <img id="Profil-photo" src="./image/eustache.jpeg" alt="image-eust">
+               <p id="biography">I'm Eustache Kamala katembo</p> 
+            </div>
+            <p class="title">A Software Engineer</p>
+        </div>
     </section>
     <script src="./script.js"></script>
 </body>

@@ -2,7 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Tahoma';
 }
 /*Sign_style open*/
 #container-sign_In{
@@ -63,9 +63,6 @@ body{
 /*End of the style for sign_In*/
 
 /*Open section Portfolio dashboard style*/
-/* #container-info-portfolio{
-    margin-top: 22px;
-} */
 #header-portfolio{
     width: 100%;
     height: 20px;
@@ -117,4 +114,31 @@ body{
     padding: 8px;
     color: white;
     border-radius: 20px;
+}
+#profil-container{
+   width: 55%;
+   display: flex;
+   flex-direction: row;
+}
+
+#Profil-photo{
+    height: 500px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 30px;
+}
+#biography{
+    font-size: 90px;
+    text-align: start;
+    font-family: 'Tahoma';
+}
+#profil{
+    /* background: #0003ff; */
+    position: relative;
+}
+#profil .title{
+    position: absolute;
+    margin-left: 20px;
+    font-size: 40px;
+    margin-top: -55px;
 }
