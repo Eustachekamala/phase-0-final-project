@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Sign_style open*/
+#container-sign_In{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    margin: auto;
+    margin-top: 18%;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+#form  div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px;
+}
+#form div input{
+    border: none;
+    border-bottom: 1px solid  grey;
+    margin-left: 10px;
+    outline: none;
+}
+.link{
+    text-decoration: none;
+    background: rgba(0, 0, 255, 0.588);
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+}
+.link:hover{
+    background: blue;
+}
+@media only screen and (max-width: 480px){
+    /* For mobile phones: */
+    #container-sign_In{
+        position: fixed;
+        width: 90%;
+        border-radius: 20px;
+        border: 1px solid grey;
+        margin: auto;
+        margin-top: 70%;
+        margin-left: 5%;
+    }
+    #form div input{
+        width: 55%;
+        border: none;
+        border-bottom: 1px solid  rgba(128, 128, 128, 0.559);
+        margin-left: 12%;
+        outline: none;
+    }
+}
+/*End of the style for sign_In*/
+
+/*Open section Portfolio dashboard style*/
+/* #container-info-portfolio{
+    margin-top: 22px;
+} */
+#header-portfolio{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 8px;
+    height: 80px;
+    box-shadow: 0px 0px 6px gray;
+    background: rgba(128, 128, 128, 0.136);
+}
+#myprofile{
+    margin-left: -10%;
+}
+.container-Info-Dev,a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.container-Info-Dev h2{
+    color: #0004ffc4;
+}
+.container-contact{
+    font-size: 15px;
+}
+.container-contact img{
+    height: 20px;
+    width: 20px;
+    margin: 4px;
+}
+.Info-Dev{
+    font-size: 20px;
+    margin: 20px;
+}
+.Info-Dev:hover{
+    color: #0003ff;
+    border-bottom: 1px solid #0003ff;
+}
+#image-eust{
+    margin: 8px;
+    border-radius: 50%;
+    height: 55px;
+    width: 58px;
+}
+#watsapp{
+    background: #008000b5;
+    padding: 8px;
+    color: white;
+    border-radius: 20px;
+}
