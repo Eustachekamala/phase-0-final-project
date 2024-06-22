@@ -176,7 +176,7 @@ body{
         padding: 8px;
         color: white;
         border-radius: 20px;
-        margin-left: 35px;
+        /* margin-left: 35px; */
         margin-top: 15px;
     }
     .container-Info-Dev h2{
