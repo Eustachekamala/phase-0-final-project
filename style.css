@@ -54,6 +54,9 @@ body{
     box-shadow: 0px 0px 6px gray;
     background: rgba(128, 128, 128, 0.136);
 }
+#menu{
+    visibility: hidden;   
+}
 #myprofile{
     margin-left: 3%;
 }
@@ -66,9 +69,15 @@ body{
 }
 .container-Info-Dev h2{
     color: #0004ffc4;
+    width: 25%;
 }
 .container-contact{
-    font-size: 15px;
+    width: 15%;
+}
+#contact-section{
+    visibility: visible;
+    background: fixed;
+    width: 50%;
 }
 .container-contact img{
     height: 20px;
@@ -77,7 +86,7 @@ body{
 }
 .Info-Dev{
     font-size: 20px;
-    margin: 8%;
+    margin: 6%;
 }
 .Info-Dev:hover{
     color: #0003ff;
@@ -94,7 +103,7 @@ body{
     padding: 8px;
     color: white;
     border-radius: 20px;
-    margin-right: 25px;
+    margin-left: 70%;
 }
 #profil-container{
    width: 55%;
@@ -134,6 +143,9 @@ body{
         margin-top: 50%;
         margin-left: 5%;
     }
+    #menu{
+        visibility: visible;
+    }
     #form div input{
         width: 55%;
         border: none;
@@ -151,14 +163,21 @@ body{
         background-color: white;
     }
     #myprofile{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
         margin-left: 40%;
+    }
+    #contact-section{
+        visibility: hidden;
     }
     #watsapp{
         background: #008000b5;
         padding: 8px;
         color: white;
         border-radius: 20px;
-        margin-left: 120px;
+        margin-left: 60px;
+        margin-top: 15px;
     }
     .container-Info-Dev h2{
         color: #0004ffc4;
@@ -183,7 +202,7 @@ body{
     .Info-Dev{
         font-size: 10px;
         margin: 3%;
-        display: none;
+        visibility: hidden;
     }
     #profil-container{
        width: 55%;
