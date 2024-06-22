@@ -165,8 +165,8 @@ body{
     #myprofile{
         display: flex;
         flex-direction: row;
-        gap: 50px;
-        margin-left: 40%;
+        gap: 35px;
+        margin-left: 35%;
     }
     #contact-section{
         visibility: hidden;
