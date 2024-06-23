@@ -166,35 +166,40 @@ body{
         display: flex;
         flex-direction: row;
         gap: 35px;
-        margin-left: 35%;
+        margin-left: 30%;
+    }
+    #myprofile div{
+        background: gainsboro;border-radius: 100%;
+        padding: 12px;
     }
     #watsapp{
         background: #008000b5;
         padding: 8px;
         color: white;
         border-radius: 20px;
-        /* margin-left: 35px; */
-        margin-top: 15px;
+        margin-left: 65px;
+        margin-top:5px;
     }
     .container-Info-Dev h2{
         color: #0004ffc4;
         font-size: 20px;
         font: bold;
+        margin-left: 20px;
     }
     #contact-section{
-        visibility: hidden;
+        /* visibility: hidden; */
         background-color: gainsboro;
-        width: 320px;
+        width: 360px;
         height: 35px;
         position: absolute;
-        left: 15%;
-        margin-top: 18%;
+        left: 17%;
+        margin-top: 20%;
         margin-left: 12%;
         border-radius: 20px;
        
     }
     .Info-Dev{
-        margin: 15px;
+        margin: 20px;
         font-size: 15px;
     }
     .container-Info-Dev,a{

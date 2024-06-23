@@ -9,9 +9,9 @@ function sign_In(){
         dashboard_portfolio.removeAttribute("hidden");
 }
 
-menu.addEventListener("click", () =>{
-        contact.style.visibility = "visible";
-        if(contact.click(links)){
-                contact.style.visibility = "none"; 
-        }
-});
+// menu.addEventListener("click", () =>{
+//         contact.style.visibility = "visible";
+//         if(contact.click(links)){
+//                 contact.style.visibility = "none"; 
+//         }
+// });
